@@ -133,3 +133,149 @@ button {
 .forgot {
   margin-top: 30px;
 }
+
+/*For responsive design*/ /*For responsive design*/ /*For responsive design*/ /*For responsive design*/ /*For responsive design*/
+/*For responsive design*/ /*For responsive design*/ /*For responsive design*/ /*For responsive design*/ /*For responsive design*/
+
+@media (max-width: 900px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .left {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-image: url(Images/Tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .overlay {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+  }
+
+  .overlay h1 {
+    color: #eda711;
+    margin-bottom: 30px;
+  }
+
+  .overlay > p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .read-more {
+    display: flex;
+    background-color: #fff;
+    width: 50%;
+    height: fit-content;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .read-more > p {
+    color: black;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0px;
+    padding-left: 5px;
+  }
+
+  .img {
+    background-color: #eda711;
+    border-radius: 0 5px 5px 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img > img {
+    width: auto;
+    height: 100%;
+  }
+
+  .bottom-nav {
+    display: flex;
+    gap: 15px;
+    font-size: 0.7rem;
+    margin-top: 20px;
+  }
+
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  input {
+    border: none;
+    border-bottom: 2px solid #eda711;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  button {
+    background-color: #eda711;
+    border: none;
+    color: #fff;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .right p {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  .login {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .forgot {
+    margin-top: 30px;
+  }
+}
