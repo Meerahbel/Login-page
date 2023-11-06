@@ -81,6 +81,7 @@ main {
   display: flex;
   gap: 15px;
   font-size: 0.7rem;
+  margin-top: auto;
 }
 
 .right {
@@ -98,6 +99,8 @@ form {
   align-items: center;
   gap: 20px;
   margin-top: 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 input {
@@ -105,14 +108,14 @@ input {
   border-bottom: 2px solid #eda711;
   padding: 5px;
   margin-bottom: 10px;
-  width: 100%;
+  width: 50%;
 }
 
 button {
   background-color: #eda711;
   border: none;
   color: #fff;
-  width: 60%;
+  width: 20%;
   padding: 10px;
   border-radius: 20px;
 }
