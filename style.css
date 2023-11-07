@@ -175,7 +175,7 @@ button {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 10% 20%;
+    padding: 10% 10%;
   }
 
   .overlay h1 {
@@ -255,7 +255,7 @@ button {
     border-bottom: 2px solid #eda711;
     padding: 5px;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
 
   button {
